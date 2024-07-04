@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.set_page_config(page_title='Predict Flower Species', page_icon='🌷', layout='wide', initial_sidebar_state='expanded')
 
 # Set title of the app
-st.title('🌷 Predict Barry's Flower Species')
+st.title('🌷 Predict Barrys Flower Species')
 
 # Load data
 df = pd.read_csv('iris.csv')
